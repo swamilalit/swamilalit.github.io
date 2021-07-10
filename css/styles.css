@@ -11,7 +11,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
 :root {
-  --blue: #007bff;
+  --blue: #1e73be;
   --indigo: #6610f2;
   --purple: #6f42c1;
   --pink: #e83e8c;
@@ -159,7 +159,7 @@ sup {
 }
 
 a {
-  color: #c6c76e;
+  color: #3859bd;
   text-decoration: none;
   background-color: transparent;
 }
@@ -6075,7 +6075,7 @@ a.close.disabled {
 }
 
 .bg-primary {
-  background-color: #7e7d73 !important;
+  background-color: #1e73be !important;
 }
 
 a.bg-primary:hover, a.bg-primary:focus,
@@ -9777,7 +9777,7 @@ button.bg-dark:focus {
 }
 
 .text-primary {
-  color: #bbbd52 !important;
+  color: #1e73be !important;
 }
 
 a.text-primary:hover, a.text-primary:focus {
