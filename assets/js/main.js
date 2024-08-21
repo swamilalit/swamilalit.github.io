@@ -66,7 +66,7 @@ jQuery(document).ready(function ($) {
     $("#medium-rss-feeds").rss(
 
         //Change this to your own rss feeds
-        ["https://medium.com/feed/@subirverma"],
+        ["https://medium.com/feed/@swamilalit"],
 
         {
             // how many entries do you want?
@@ -99,11 +99,11 @@ jQuery(document).ready(function ($) {
 
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "99sbr__");
+    new GitHubCalendar("#github-graph", "swamilalit__");
 
 
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
-    GitHubActivity.feed({ username: "99sbr", selector: "#ghfeed" });
+    GitHubActivity.feed({ username: "swamilalit", selector: "#ghfeed" });
 
 
 });
