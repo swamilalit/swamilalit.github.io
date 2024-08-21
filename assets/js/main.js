@@ -31,7 +31,7 @@ jQuery(document).ready(function ($) {
     $("#rss-feeds").rss(
 
         //Change this to your own rss feeds
-        ["https://stackoverflow.com/feeds/user/10498119","https://datascience.stackexchange.com/feeds/user/95824"],
+        ["https://stackoverflow.com/feeds/user/","https://datascience.stackexchange.com/feeds/user/"],
 
         {
             // how many entries do you want?
@@ -99,8 +99,7 @@ jQuery(document).ready(function ($) {
 
 
     /* Github Calendar - https://github.com/IonicaBizau/github-calendar */
-    new GitHubCalendar("#github-graph", "swamilalit__");
-
+    new GitHubCalendar("#github-graph", "swamilalit");
 
     /* Github Activity Feed - https://github.com/caseyscarborough/github-activity */
     GitHubActivity.feed({ username: "swamilalit", selector: "#ghfeed" });
